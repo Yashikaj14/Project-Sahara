@@ -9,7 +9,7 @@ public class DBConnection {
 
     public DBConnection() {
         try {
-            connection = DriverManager.getConnection("jdbc:sqlite:E:/JavaPCT/Project-Rakshak/Externals/RakshakDB.db");
+            connection = DriverManager.getConnection("jdbc:sqlite:D:/Project/Project-Sahara/Externals/SaharaDB.db");
         } catch (SQLException se){
             se.printStackTrace();
         }
