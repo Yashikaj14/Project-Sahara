@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane fx:id="primaryPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.StaffDashboardController">
+    <children>
+        <HBox prefHeight="23.0" prefWidth="800.0">
+            <children>
+                <ToolBar prefHeight="36.0" prefWidth="519.0">
+                    <items>
+                        <Button fx:id="accountButton" mnemonicParsing="false" onAction="#onToolBarButtonClicked" prefHeight="14.0" prefWidth="70.0" text="Account" />
+                        <Button fx:id="payManagerButton" mnemonicParsing="false" onAction="#onToolBarButtonClicked" prefHeight="26.0" prefWidth="86.0" text="PayManager" />
+                        <Button fx:id="scheduleButton" mnemonicParsing="false" onAction="#onToolBarButtonClicked" text="Schedule" />
+                        <Button fx:id="contactButton" mnemonicParsing="false" onAction="#onToolBarButtonClicked" text="Contacts" />
+                    </items>
+                </ToolBar>
+                <ToolBar nodeOrientation="RIGHT_TO_LEFT" prefHeight="36.0" prefWidth="283.0">
+                    <items>
+                        <Button fx:id="exitButton" mnemonicParsing="false" onAction="#onToolBarButtonClicked" text="Exit" />
+                        <Button fx:id="logoutButton" mnemonicParsing="false" onAction="#onToolBarButtonClicked" text="Logout" />
+                    </items>
+                </ToolBar>
+            </children>
+        </HBox>
+      <Label fx:id="dateLabel" layoutX="218.0" layoutY="51.0" text="Date" />
+      <Button fx:id="attendanceButton" onAction="#markAttendanceClicked" layoutX="337.0" layoutY="47.0" mnemonicParsing="false" text="Mark Attendance" />
+      <TextField fx:id="staffIDField" layoutX="143.0" layoutY="262.0" />
+      <TextField fx:id="nameField" layoutX="143.0" layoutY="330.0" />
+      <TextField fx:id="emailField" layoutX="143.0" layoutY="401.0" />
+      <TextField fx:id="uidField" layoutX="143.0" layoutY="474.0" />
+      <TextField fx:id="titleField" layoutX="466.0" layoutY="330.0" />
+      <TextField fx:id="qrCodeField" layoutX="466.0" layoutY="401.0" />
+      <TextField fx:id="dateJoinedField" layoutX="466.0" layoutY="262.0" />
+      <Label layoutX="60.0" layoutY="266.0" text="StaffID" />
+      <Label layoutX="60.0" layoutY="405.0" text="Email" />
+      <Label layoutX="60.0" layoutY="334.0" text="Name" />
+      <Label layoutX="60.0" layoutY="478.0" text="UID Number" />
+      <Label layoutX="377.0" layoutY="266.0" text="Date Joined" />
+      <Label layoutX="377.0" layoutY="334.0" text="Title" />
+      <Label layoutX="377.0" layoutY="405.0" text="QR Code" />
+      <Button fx:id="editDetailsButton" onAction="#onEditClicked" layoutX="244.0" layoutY="544.0" mnemonicParsing="false" text="Edit Details" />
+        <Button fx:id="doneButton" onAction="#onDoneClicked" layoutX="244.0" layoutY="544.0" mnemonicParsing="false" text="Done" />
+      <Button fx:id="changePasswordButton" layoutX="356.0" layoutY="544.0" mnemonicParsing="false" text="Change Password" />
+      <TextField fx:id="phoneNumberField" layoutX="460.0" layoutY="483.0" />
+      <Label layoutX="377.0" layoutY="487.0" text="Phone Number" />
+    </children>
+
+</AnchorPane>

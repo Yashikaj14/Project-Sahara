@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2388e67-1184-4654-82aa-5f6bd3bc2cab" name="Default Changelist" comment="" />
+    <list default="true" id="b2388e67-1184-4654-82aa-5f6bd3bc2cab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ProjectSahara/src/resources/PayViewDialog.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSahara/src/resources/ReceptionDashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSahara/src/resources/StaffDashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSahara/src/resources/StaffLogin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSahara/src/resources/TimeTableDialog.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSahara/src/resources/UserDashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSahara/src/resources/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSahara/src/resources/mainpage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSahara/src/resources/signup.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project-Sahara.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project-Sahara.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,10 +32,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ProjectSahara/src/main/SaharaServer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ProjectSahara/src/resources" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Project-Sahara\ProjectSahara\src\resources" />
       <recent name="D:\Project\Project-Sahara\ProjectSahara\src\main\SaharaServer" />
       <recent name="D:\Project\Project-Sahara\ProjectSahara\src\main\SaharaClient" />
     </key>
@@ -36,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624997139560</updated>
-      <workItem from="1626188778862" duration="647000" />
+      <workItem from="1626188778862" duration="1201000" />
     </task>
     <servers />
   </component>
