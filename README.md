@@ -18,7 +18,7 @@ Sahara is a Java based Integrated Hospital Management which contains both InPati
 
 ## `Problem-Statement`
 
-In this time of pandemic the we all tried to move towards social distancing and make everything contactless. Due to which use of digital technologies increased drastically. Especially in the hospitals, which felt like the place of god in this pandemic. But the truth is not everyone is techy and immediately learns how to use a specific technology. So if we make the entire process digital it would be hard for some people to use that. So the problem was to make dynamic, easy to use, up to date, and All in one Hospital Management System. Following is my solution to this.  
+In this time of pandemic, we all tried to move towards social distancing and make everything contactless. Due to which use of digital technologies increased drastically. Especially in the hospitals, which felt like the place of god in this pandemic. But the truth is not everyone is techy and immediately learns how to use a specific technology. So if we make the entire process digital it would be hard for some people to use that. So the problem was to make dynamic, easy to use, up to date, and All in one Hospital Management System. Following is my solution to this.  
 
 ## `Features`  
 
