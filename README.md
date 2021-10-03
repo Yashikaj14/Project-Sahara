@@ -140,5 +140,3 @@ In this time of pandemic, we all tried to move towards social distancing and mak
 ## `Suggestions`
 
 > If you want to help me and have some features in your mind, feel free to update this section of readme and describe about your feature. Thank you.
-
-
