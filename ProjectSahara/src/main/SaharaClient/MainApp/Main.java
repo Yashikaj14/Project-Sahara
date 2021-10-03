@@ -44,6 +44,7 @@ public class Main extends Application {
         }
     }
 
+    // a function to load different resources to save reuse of code
     public static void loadControl(Pane primaryPane, String filename){
         Platform.runLater(new Runnable() {
             @Override

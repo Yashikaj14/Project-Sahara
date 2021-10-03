@@ -1,5 +1,5 @@
 package controllers;
-
+// imports from different files
 import MainApp.Main;
 import constants.ResponseCode;
 import data.User;
@@ -111,6 +111,7 @@ public class LoginController {
         }).start();
 
     }
+    // loading different resources e.g other files from dashboards
     public void otherLoginClicked(ActionEvent ae){
         if(ae.getSource().equals(staffLogin)){
             Main.loadControl(primaryGridPane ,"/StaffLogin.fxml");
